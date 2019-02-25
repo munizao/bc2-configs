@@ -23,7 +23,7 @@ A file required to run our QUnit tests on travis, briding between ESModules and 
 
 ### `tests.js`
 
-Starter test file for writing unit tests
+Starter test file for that imports all other test files (in this example `file1.test.js` and `file2.test.js`). It also imports are test helper utilities.
 
 ### `html-equal.js`
 
