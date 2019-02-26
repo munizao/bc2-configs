@@ -15,11 +15,11 @@ h1 {
     margin-left: 20px;
 }
 
-#images-list {
+#image-list {
     margin: 20px;
 }
 
-#images-list li {
+#image-list li {
     list-style-type: none;
     width: 250;
     height: 250;
@@ -29,6 +29,7 @@ h1 {
     margin: 8px;
 } 
 
-#images-list img {
+#image-list img {
     width: 100%;
+    
 }

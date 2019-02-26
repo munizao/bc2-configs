@@ -2,4 +2,7 @@ import images from '../data/images.js';
 import makeTemplateForList from './make-template-for-list.js';
 
 const imageList = document.getElementById('image-list');
-images.forEach(image => makeTemplateForList(image));
+images.forEach(function(image) {
+    const dom = makeTemplateForList(image);
+    imageList.appendChild(dom); 
+});
