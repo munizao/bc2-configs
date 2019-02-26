@@ -14,3 +14,21 @@ header {
 h1 {
     margin-left: 20px;
 }
+
+#images-list {
+    margin: 20px;
+}
+
+#images-list li {
+    list-style-type: none;
+    width: 250;
+    height: 250;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 8px;
+} 
+
+#images-list img {
+    width: 100%;
+}
